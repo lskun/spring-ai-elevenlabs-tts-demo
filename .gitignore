@@ -23,5 +23,19 @@
 hs_err_pid*
 replay_pid*
 
+# IDE files
 .idea
+.vscode
 target
+
+# Environment variables and sensitive files
+.env
+*.key
+*.pem
+*.p12
+application-local.yml
+application-dev.yml
+
+# OS generated files
+.DS_Store
+Thumbs.db

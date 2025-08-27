@@ -5,7 +5,7 @@ spring:
   # AI configurations
   ai:
     elevenlabs:
-      api-key: ${ELEVENLABS_API_KEY:sk_108c80c26f448da2d4595e0733bad08bc6fd4c0b4b38244f}
+      api-key: ${ELEVENLABS_API_KEY}
       tts:
         enableLogging: true
         options:
